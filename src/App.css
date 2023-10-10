@@ -40,3 +40,39 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+/* Styling for the ban item buttons */
+.button-container button {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.ban-list-item {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  background-color: black;
+  border: 1px solid #999;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.ban-list-item:hover {
+  background-color: #aaa;
+  color: black;
+}
